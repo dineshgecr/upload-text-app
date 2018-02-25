@@ -1,0 +1,9 @@
+<input ui-jq="filestyle" type="file" nv-file-select="" accept=".txt"
+ uploader="uploader" data-icon="false" data-classButton="btn btn-default"
+  data-classInput="form-control inline v-middle input-s" multiple>
+  <hr><hr><br>
+  <form >
+    <input type="file" class="form-control" id="fileName"  placeholder="Upload file" accept=".txt"
+    required 
+    (change)="onImageChangeFromFile($event)">
+  </form>
